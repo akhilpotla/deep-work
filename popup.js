@@ -4,8 +4,19 @@ const count = document.getElementById("count");
 count.innerHTML = tabs.length;
 
 const saver = document.getElementById("saver");
-console.log("saver: " + saver);
 const max_tabs = document.getElementById("max-tabs");
-max_tabs.onchange = (e) => {
-  console.log(e.target.value);
+const getter = document.getElementById("getter");
+
+saver.onsubmit = (e) => {
+  e.preventDefault();
+  console.log(max_tabs.value);
+  chrome.storage.local.set({ MAX: max_tabs.value }).then(() => {
+    console.log("Maximum number of tabs is set to: " + max_tabs.value);
+  });
+}
+
+getter.onclick = (e) => {
+  chrome.storage.local.get(["MAX"]).then((result) => {
+    console.log("Saved maximum number of tabs: " + result.MAX);
+  });
 }

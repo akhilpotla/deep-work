@@ -11,7 +11,7 @@
   "action": {
     "default_popup": "popup.html"
   },
-  "permissions": ["tabGroups"],
+  "permissions": ["tabGroups", "storage"],
   "background": {
     "service_worker": "background.js"
   }
