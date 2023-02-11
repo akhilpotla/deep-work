@@ -9,7 +9,6 @@ const getter = document.getElementById("getter");
 
 saver.onsubmit = (e) => {
   e.preventDefault();
-  console.log(max_tabs.value);
   chrome.storage.local.set({ MAX: max_tabs.value }).then(() => {
     console.log("Maximum number of tabs is set to: " + max_tabs.value);
   });
