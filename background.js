@@ -8,6 +8,11 @@ chrome.runtime.onInstalled.addListener(() => {
       chrome.storage.local.set({ MAX: 3 });
     }
   });
+  chrome.storage.local.get(["STATUS"]).then((result) => {
+    if (result === undefined || result.STATUS === undefined) {
+      chrome.storage.local.set({ STATUS: "ON" });
+    }
+  });
 });
 
 chrome.tabs.onCreated.addListener(async () => {
