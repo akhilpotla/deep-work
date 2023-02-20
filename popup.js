@@ -1,12 +1,13 @@
 const tabs = await chrome.tabs.query({});
 
 const title = document.getElementById("title");
+const counter = document.getElementById("counter");
 const saver = document.getElementById("saver");
 const maxTabs = document.getElementById("max-tabs");
 const onOffSwitch = document.getElementById("on-off-switch");
 
 const result = await chrome.storage.local.get(["MAX"]);
-title.innerHTML = result.MAX;
+counter.innerHTML = result.MAX;
 
 saver.onsubmit = (e) => {
   e.preventDefault();
