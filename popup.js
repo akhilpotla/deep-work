@@ -1,6 +1,5 @@
 const tabs = await chrome.tabs.query({});
 
-const title = document.getElementById("title");
 const counter = document.getElementById("counter");
 const saver = document.getElementById("saver");
 const maxTabs = document.getElementById("max-tabs");
