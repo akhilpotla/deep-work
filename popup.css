@@ -22,3 +22,9 @@ h3,
 p {
   margin: 0;
 }
+
+#on-off-switch {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
