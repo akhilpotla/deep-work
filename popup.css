@@ -1,30 +1,19 @@
 body {
   width: 20rem;
+  font-size: 1.25rem;
 }
 
-ul {
-  list-style-type: none;
-  padding-inline-start: 0;
-  margin: 1rem;
+h1 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
 }
 
-li {
-  padding: 0.25rem;
-}
-li:nth-child(odd) {
-  background: #80808030;
-}
-li:nth-child(even) {
-  background: #ffffff;
-}
-
-h3,
 p {
-  margin: 0;
+  margin: 0.5rem 0;
 }
 
 #on-off-switch {
   position: absolute;
-  right: 8px;
-  bottom: 8px;
+  right: 0.5rem;
+  bottom: 0.5rem;
 }
