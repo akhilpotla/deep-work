@@ -22,3 +22,13 @@ p {
   background-color: #0275d8;
   color: white;
 }
+
+.success {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.danger {
+  background-color: #d9534f;
+  color: white;
+}
