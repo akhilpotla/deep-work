@@ -5,12 +5,26 @@ const saver = document.getElementById("saver");
 const maxTabs = document.getElementById("max-tabs");
 const onOffSwitch = document.getElementById("on-off-switch");
 
-const status = await chrome.storage.local.get(["STATUS"])
-if (status === "ON") {
-  onOffSwitch.innerHTML = "Off";
-} else {
+const statusOn = () => {
   onOffSwitch.innerHTML = "On";
+  onOffSwitch.className = "success";
 }
+
+const statusOff = () => {
+  onOffSwitch.innerHTML = "Off";
+  onOffSwitch.className = "danger";
+}
+
+const statusChecker = (status) => {
+  if (status === "ON") {
+    statusOn();
+  } else {
+    statusOff();
+  }
+}
+
+const status = (await chrome.storage.local.get(["STATUS"])).STATUS;
+statusChecker(status);
 
 
 const result = await chrome.storage.local.get(["MAX"]);
@@ -28,10 +42,10 @@ onOffSwitch.onclick = (e) => {
     if (result !== undefined  || result.STATUS !== undefined) {
       if (result.STATUS === "ON") {
         chrome.storage.local.set({ STATUS: "OFF" });
-        onOffSwitch.innerHTML = "Off";
+        statusOff();
       } else {
         chrome.storage.local.set({ STATUS: "ON" });
-        onOffSwitch.innerHTML = "On";
+        statusOn();
       }
     }
   });
