@@ -23,6 +23,22 @@ search results, most of which don't get read. Soon the engineer will find
 themselves distracted on the internet looking up something irrelavent to the
 problem they had originally encoutered.
 
+Modern web browsing can be bad for focus because it is designed to be addictive and distracting. The modern web is full of endless streams of content, including social media feeds, news articles, videos, and advertisements. These platforms are designed to capture our attention and keep us engaged for as long as possible, using features like infinite scrolling, autoplay videos, and push notifications.
+
+The problem with this design is that it encourages a constant state of distraction and multitasking, which can make it difficult to focus on a single task for an extended period of time. When we are constantly switching between tasks and distractions, we can experience a phenomenon known as "attention residue," where our attention remains divided even after we move on to a new task. This can make it difficult to fully engage with any one task and can lead to a sense of overwhelm and burnout.
+
+In addition, modern web browsing can be bad for focus because it can lead to a constant need for novelty and stimulation. The constant stream of new content and information can make it difficult to feel satisfied with any one piece of content, leading to a constant need to check for updates and notifications. This can create a sense of addiction and can make it difficult to break away from the cycle of distraction and stimulation.
+
+To combat these issues and improve focus, it is important to be intentional about our web browsing habits. This can include strategies like:
+
+Setting specific times for browsing the web and avoiding it outside of those times.
+Turning off notifications and other distractions while working on a task.
+Using tools like website blockers or ad blockers to limit distractions.
+Being selective about the types of content we consume and only engaging with high-quality, relevant content.
+Practicing mindfulness and being present while browsing the web, rather than getting lost in a cycle of distraction and stimulation.
+Overall, modern web browsing can be bad for focus due to its addictive and distracting nature. By being intentional about our web browsing habits and taking steps to limit distractions, we can improve our focus and productivity, leading to a more fulfilling and satisfying work and personal life.
+
+
 # Benefits of limiting the number of tabs you have open?
 1. You are not going to read all of those tabs anyway.
 2. It becomes easier to find what you were looking for.
