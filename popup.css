@@ -12,6 +12,12 @@ p {
   margin: 0.5rem 0;
 }
 
+button {
+  border: 0;
+  border-radius: 2px;
+  height: 1.34375rem;
+}
+
 #on-off-switch {
   position: absolute;
   right: 0.5rem;
