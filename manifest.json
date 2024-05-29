@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Deep Work Browser Extension",
-  "description": "Chrome extension that will limit the number of tabs you can have open in order to help the user achieve greater levels of focus and productivity",
+  "description": "Extension that limits the number of tabs a user can have open in order aid in  achieving greater levels of focus and productivity",
   "version": "1.0",
   "icons": {
     "16": "images/icon-16.png",
